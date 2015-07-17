@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<vivienda name="gfer" logo="Viv. gfer" contador="3"> 
+  <email direccion="ger"/>  
+  <planta alias="planta1"> 
+    <estancia nombre="dorm" imagen="imagenes_micasa\dormitorio.jpg"> 
+      <actuadores regulacion="si" conmutacion="no" persianas="no" electrovalvula="no"/>  
+      <sensores puerta="no" movimiento="no" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos> 
+        <label tipo="regulacion" x="108" y="86" ancho="50" largo="60" id="000002" direccionGrupo="2/3/4" tipoEstructura="0x18" subtipo="5.112"/> 
+      </iconos>  
+      <cantidad blinds="0" lucreg="1" bombs="0" valves="0" doors="0" presencia="0"/> 
+    </estancia> 
+  </planta>  
+  <planta alias="planta2"/> 
+</vivienda>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<vivienda name="Mi casa" logo="Viv. Mi casa" contador="15"> 
+  <email direccion="eee"/>  
+  <planta alias="Baja"> 
+    <estancia nombre="Aseo" imagen="/media/data/jorge/proyectos/sergi-proyecto/skoa/skoa-es-modificado/imagenes_micasa/aseo.jpg"> 
+      <actuadores regulacion="no" conmutacion="no" persianas="no" electrovalvula="no"/>  
+      <sensores puerta="no" movimiento="si" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos> 
+        <label tipo="movimiento" x="177" y="354" ancho="50" largo="60" id="000002" direccionGrupo="3/4/01" tipoEstructura="0x01" subtipo="1.002"/> 
+      </iconos>  
+      <cantidad blinds="0" lucreg="0" bombs="0" valves="0" doors="0" presencia="1"/> 
+    </estancia>  
+    <estancia nombre="Cocina" imagen="/media/data/jorge/proyectos/sergi-proyecto/skoa/skoa-es-modificado/imagenes_micasa/cocina.jpg"> 
+      <actuadores regulacion="no" conmutacion="no" persianas="no" electrovalvula="no"/>  
+      <sensores puerta="si" movimiento="no" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos> 
+        <label tipo="puerta" x="133" y="399" ancho="50" largo="60" id="000004" direccionGrupo="3/2/01" tipoEstructura="0x01" subtipo="1.002"/> 
+      </iconos>  
+      <cantidad blinds="0" lucreg="0" bombs="0" valves="0" doors="1" presencia="0"/> 
+    </estancia>  
+    <estancia nombre="Salon" imagen="/media/data/jorge/proyectos/sergi-proyecto/skoa/skoa/imagenes_demo/22salon.png"> 
+      <actuadores regulacion="no" conmutacion="si" persianas="no" electrovalvula="no"/>  
+      <sensores puerta="si" movimiento="no" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos> 
+        <label tipo="conmutacion" x="176" y="92" ancho="50" largo="60" id="000006" direccionGrupo="1/1/01" tipoEstructura="0x01" subtipo="1.002"/>  
+        <label tipo="conmutacion" x="310" y="100" ancho="50" largo="60" id="000007" direccionGrupo="1/1/02" tipoEstructura="0x01" subtipo="1.002"/>  
+        <label tipo="puerta" x="36" y="384" ancho="50" largo="60" id="000008" direccionGrupo="5/1/04" tipoEstructura="0x01" subtipo="1.002"/> 
+      </iconos>  
+      <cantidad blinds="0" lucreg="0" bombs="2" valves="0" doors="1" presencia="0"/> 
+    </estancia>  
+    <estancia nombre="Dormitorio" imagen="imagenes de planta_PlantaBaja\dormitorio.jpg"> 
+      <actuadores regulacion="no" conmutacion="si" persianas="si" electrovalvula="no"/>  
+      <sensores puerta="no" movimiento="no" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos> 
+        <label tipo="conmutacion" x="225" y="249" ancho="50" largo="60" id="000010" direccionGrupo="3/3/02" tipoEstructura="0x01" subtipo="1.002"/>  
+        <label tipo="persianas" x="209" y="404" ancho="50" largo="60" id="000011" direccionGrupo="7/3/01" tipoEstructura="0x01" subtipo="1.008"/> 
+      </iconos>  
+      <cantidad blinds="1" lucreg="0" bombs="1" valves="0" doors="0" presencia="0"/> 
+    </estancia>  
+    <estancia nombre="Entrada" imagen="imagenes de planta_PlantaBaja\distribuidor.jpg"> 
+      <actuadores regulacion="no" conmutacion="si" persianas="no" electrovalvula="no"/>  
+      <sensores puerta="si" movimiento="no" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos> 
+        <label tipo="conmutacion" x="50" y="383" ancho="50" largo="60" id="000013" direccionGrupo="1/5/01" tipoEstructura="0x01" subtipo="1.002"/>  
+        <label tipo="puerta" x="159" y="303" ancho="50" largo="60" id="000014" direccionGrupo="4/5/02" tipoEstructura="0x01" subtipo="1.002"/> 
+      </iconos>  
+      <cantidad blinds="0" lucreg="0" bombs="1" valves="0" doors="1" presencia="0"/> 
+    </estancia> 
+  </planta> 
+</vivienda>

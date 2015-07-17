@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<vivienda name="hotal1" logo="Hotel hotal1" contador="3"> 
+  <email direccion=""/>  
+  <planta alias="1"> 
+    <estancia nombre="qwewqeqeqwe" imagen="imagenes_demo/01dormitorio.png"> 
+      <actuadores regulacion="no" conmutacion="no" persianas="no" electrovalvula="no"/>  
+      <sensores puerta="no" movimiento="no" temperatura="no" combinado="no" inundacion="no" contadores="no"/>  
+      <iconos> 
+        <label tipo="movimiento" x="221" y="238" ancho="50" largo="60" id="000002" direccionGrupo="2/3/3" tipoEstructura="0x01" subtipo="1.010"/> 
+      </iconos>  
+      <cantidad blinds="0" lucreg="0" bombs="0" valves="0" doors="0" presencia="1"/> 
+    </estancia> 
+  </planta>  
+  <planta alias="2"/>  
+  <planta alias="4"/> 
+</vivienda>
